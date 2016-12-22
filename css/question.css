@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Microsoft Yahei;
+}
+ul {
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+img{
+	border:none;
+}
+body{
+	padding-top:80px;
+}
+.w1200{
+	margin: 0 auto;
+	width: 1200px;
+}
+/*顶部导航栏*/
+.top{
+	width: 100%;
+	height: 46px;
+	padding:20px 0;
+	border-top: 4px solid #FF571A;
+	border-bottom: 1px solid #DCDCDC;
+}
+.logo{
+	margin:0 18px 0 6px;
+	width: 82px;
+	height: 36px;
+	background: url(../images/logo.png);
+	float: left;
+}
+.area{
+	float:left;
+	margin:3px 50px 3px 0;
+	width:86px;
+	height:28px;
+	border:1px solid rgb(237, 237, 237);
+	border-radius:2px;
+	position: relative;
+}
+.area .yic{
+	margin-top:3px;
+	margin-left:-1px;
+	width:360px;
+	height:235px;
+	border:1px solid rgb(255, 88, 26);
+	display:none;
+	z-index: 3;
+}
+.area:hover .yic{
+	display:block;
+	
+
+}
+.area span{
+	display:block;
+	padding-left:23px;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+	color:rgb(102, 102, 102);
+	cursor:pointer;
+}
+.area i{
+	position: absolute;
+	width: 10px;
+	height: 6px;
+	background: url(../images/head-sprite.png) no-repeat;
+	top: 12px;
+	left: 68px;
+}
+.top .anchor{
+	float:left;
+	margin-right:34px;
+	font-size:14px;
+	line-height:36px;
+	vertical-align:middle;
+}
+.top a.anchor:hover, .top .sign:hover{
+	color:#FF571A;
+}
+.top input{
+	float:left;
+	margin-right:65px;
+	padding:0 8px;
+	width:200px;
+	height:28px;
+	border:2px solid rgb(230, 230, 230);
+	line-height:28px;
+	outline:none;
+	
+}
+.top .search1{
+	float: left;
+
+	position: relative;
+
+}
+.top .search1 .search{
+	float: left;
+	display: inline-block;
+	border: none;
+	outline:none;
+	width: 16px;
+	height: 16px;
+	background: url(../images/head-sprite.png) no-repeat 0px -35px;
+	position: absolute;
+	top: 8px;
+	left: 193px;
+}
+.top .search1 .search:hover{
+	background: url(../images/head-sprite.png) no-repeat 0px -55px;
+}
+.top .sign{
+	float:left;
+	margin-right:15px;
+	font-size:12px;
+	line-height:36px;
+}
+.top .tel{
+	float:right;
+	width:144px;
+	height:36px;
+	background: url(../images/tel.png);
+}
+.normal{
+	position:absolute;
+	top: 0px;
+}
+.fixed{
+	position:fixed;
+	z-index:2;
+}
